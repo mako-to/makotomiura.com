@@ -1,0 +1,24 @@
+baseurl = "https://makotomiura.com/"
+languageCode = "ja-jp"
+title = "Makoto Miura's Docs"
+DisqusShortname = "nanolia"
+Copyright = "Copyright (C) 2015- Makoto Miura All Right Reserved."
+
+theme = "casper"
+canonifyurls = true
+
+[permalinks]
+  post = "/:year/:month/:day/:filename"
+
+[params]
+  cover = "images/cover.png"
+  author = "Makoto Miura"
+  authorlocation = "Tokyo, Japan"
+  authorwebsite = "https://makotomiura.com"
+  bio= "#code #math #brainscience #education"
+  logo = "images/logo.jpg"
+  googleAnalyticsUserID = "UA-71545524-1"
+  # githubName = "nanolia"
+  # twitterName = "nanolia"
+  hideHUGOSupport = false
+  customHeaderPartial = "custom_header"
