@@ -10,6 +10,6 @@ deploy:
         hostname: github.com
     - leipert/git-push:
         host: github.com
-        repo: littlebusters/creative-tweet.net
+        repo: nanolia/nanolia.github.io
         basedir: public
         clean_removed_files: true
