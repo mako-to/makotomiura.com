@@ -1,0 +1,15 @@
+box: golang
+build:
+  steps:
+    - arjen/hugo-build
+deploy:
+  steps:
+    - leipert/add-ssh-key-gh-bb:
+        keyname: GITHUB_DEPLOY_KEY
+    - add-to-known_hosts:
+        hostname: github.com
+    - leipert/git-push:
+        host: github.com
+        repo: littlebusters/creative-tweet.net
+        basedir: public
+        clean_removed_files: true
