@@ -12,4 +12,6 @@ deploy:
         host: github.com
         repo: nanolia/nanolia.github.io
         basedir: public
-        clean_removed_files: false
+        clean_removed_files: true
+        gh_pages: true
+        gh_pages_domain: makotomiura.com
