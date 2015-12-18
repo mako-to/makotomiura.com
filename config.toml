@@ -18,7 +18,4 @@ canonifyurls = true
   bio= "#code #math #brainscience #education"
   logo = "images/logo.jpg"
   googleAnalyticsUserID = "UA-71545524-1"
-  # githubName = "nanolia"
-  # twitterName = "nanolia"
-  hideHUGOSupport = false
   customHeaderPartial = "custom_header"
