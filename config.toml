@@ -11,7 +11,7 @@ canonifyurls = true
   post = "/:year/:month/:day/:filename/"
 
 [params]
-  cover = "images/cover.png"
+  cover = "images/cover.jpg"
   author = "Makoto Miura"
   authorlocation = "Tokyo, Japan"
   authorwebsite = "https://makotomiura.com"
