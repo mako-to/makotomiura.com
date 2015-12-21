@@ -1,0 +1,33 @@
+{
+  "name": "makotomiura.com",
+  "version": "1.0.0",
+  "description": "https://makotomiura.com",
+  "main": "''",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanolia/makotomiura.com.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Makoto Miura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanolia/makotomiura.com/issues"
+  },
+  "homepage": "https://github.com/nanolia/makotomiura.com#readme",
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2",
+    "textlint": "^5.1.0",
+    "textlint-rule-max-ten": "^2.0.0",
+    "textlint-rule-no-mix-dearu-desumasu": "^1.4.0",
+    "textlint-rule-no-todo": "^1.0.3",
+    "textlint-rule-spellcheck-tech-word": "^4.1.0",
+    "toml": "^2.3.0"
+  }
+}

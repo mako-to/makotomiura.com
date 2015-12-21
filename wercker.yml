@@ -1,6 +1,8 @@
 box: makoto/golang-node
 build:
   steps:
+    - npm-install
+    - npm-test
     - arjen/hugo-build
 deploy:
   steps:
