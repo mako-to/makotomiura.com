@@ -1,4 +1,4 @@
-box: golang
+box: makoto/golang-node
 build:
   steps:
     - arjen/hugo-build
